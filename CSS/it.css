@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+/* Body style */
+body{
+  background-color:grey;
+  height: 100%;
+}
+
+
+/* Nav bar*/
+header{
+  background: teal;
+ 
+}
+
+/* NavBar clearfix */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Nav bar image */
+.logo {
+  float: left;
+  
+}
+/* Navbar whole list */
+nav {
+  float: right;
+  
+}
+/* Navbar text position style over header*/
+nav ul {
+
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+ /* Navbar text block style */
+nav li {
+  display: inline-block;
+margin-right: 135px;
+  padding-top:20px;
+font-family: "PT Serif", serif;
+  position: relative;
+}
+/* Navbar title hyperlinks */
+nav ul a {
+  color: white;
+    text-decoration:none;
+  text-transform:uppercase;
+  font-size: 18px;
+  font-weight:bold;
+}
+/* Navbar link hover */
+nav a:hover {
+  color: black;
+}
+
+/* Hero image position/style */
+#hero-image {
+    background-image: url("https://ssl.c.photoshelter.com/img-get/I0000oFlC1vhLy5M/s/1200/I0000oFlC1vhLy5M.jpg");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 5px;
+  margin-left: 0px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+/* text in the middle of the image */
+.hero-header {
+  text-align: center;
+ margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left:0px;
+  margin-right:0px;
+  width:100%;
+    color: white;
+  font-size: 50px;
+  font-family: "PT Serif", serif;
+}
+
+.container3 img{
+  height: 150px;
+    width: 20%;
+  
+  padding-bottom:10px;
+}
+/* IT SCENE header */
+.itscene {
+  text-align:center;
+  font-size: 40px;
+  text-decoration:none;
+  color:white;
+  font-family: "PT Serif", serif;
+}
+.itsceneinfo{
+  padding-bottom:50px;
+}
+
+figure {
+  display:block;
+  font-family: "PT Serif", serif;
+  font-size:20px;
+  color: white;
+}
+figure p {
+    font-size:25px;
+    line-height: 25px;
+    margin-right: 100px;
+    margin-left: 0px;
+    font-family: "PT Serif", serif;
+
+}
+
+/*Footer Div container*/
+footer {
+  display:block;
+  background-color: teal;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top:100px;
+
+  /*clearfix*/
+  clear:both
+}
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.social  {
+    text-decoration: none;
+    text-align: center;    
+    margin-right: 400px;
+    padding-top: 5px;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+/*icon position*/
+.social ul li{
+  display: inline-block;
+  margin-right: 50px;
+  
+  position: relative;
+}
+
+
+/*copyright style*/
+.copyright{
+  text-align: center;
+  color: white;
+  margin-top:20px;
+  margin-right:320px;
+    
+}

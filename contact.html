@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--title/source--> 
+  <title>The Cayman Islands Contact Us</title>
+  <link href="./CSS/contact.css" rel="stylesheet" type="text/css">
+  <!--google font link-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  
+</head>
+  
+  
+  
+<body>
+  <!--Page container-->
+
+  
+  <header>
+    <!--Navbar-->
+        <!--Navbar Logo-->    
+      <img src="https://www.visitcaymanislands.com/Visitcaymanislands.com/media/VCI_main_site/Homepage/Cayman-Islands-Logo-2019.png?ext=.png" alt="logo" class="logo">
+  <nav>
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="todo.html">To Do</a></li>
+        <li><a href="it.html">IT</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+  <!--Section container-->
+    <!--Hero Image-->
+ <figure id="hero-image">
+    <h1 class=hero-header>Contact us.</h1>
+   
+   <!--Form Container-->
+
+  <form action="action_page.php" class="container2">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required minlength="3" maxlength="8" pattern="[A-Za-z]+" > 
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required minlength="3" maxlength="8" pattern="[A-Za-z]+">
+    
+    <label for="pnumber">Phone Number</label>
+    <input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number.." required minlength="4" maxlength="8" pattern="[0-9]+">
+    
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Your E-mail.." required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="caymanislands">Cayman Islands</option>
+     </select>
+    
+  <!--Text area-->
+    <label for="subject">Message us</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+
+  <!--Submit button-->
+    <input type="submit" value="Submit">
+
+  </form>
+   
+   </figure>
+
+ 
+  
+ <!--footer-->    
+   <footer>
+  
+    <!--Social Media Links container-->
+  <figure class="social">
+   <!--Footer Logo-->
+    <a href="index.html" id="footerlogo"><img src="https://www.visitcaymanislands.com/Visitcaymanislands.com/media/VCI_main_site/Homepage/Cayman-Islands-Logo-2019.png?ext=.png" alt="logo" class="logo">
+    </a>
+   <ul>
+    <li>
+      <a href="https://www.facebook.com/VisitCaymanIslands/" target="blank" class="facebook">
+        <img src="https://img.icons8.com/android/24/000000/facebook.png" alt="Facebook" class="icon">
+      </a>
+    </li>
+     
+    <li>
+       <a href="https://twitter.com/Cayman_Islands?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blank" class="twitter">
+         <img src="https://img.icons8.com/android/24/000000/twitter.png" alt="twitter" class="icon"> 
+      </a>
+    </li>
+     
+    <li>
+       <a href="https://www.instagram.com/visitcaymanislands/?hl=en" target="blank" class="Instagram"> 
+         <img src="https://img.icons8.com/material-rounded/24/000000/instagram-new.png" alt="instagram" class="icon">
+         
+      </a>
+    </li>  
+    </ul>
+   <!--Social Media Links container-->
+  </figure>
+  <!--copyright info-->
+  <p class=copyright>Copyright @ 2020 All Rights Reserved.
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+      </a>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+    
+  </p>
+  
+  </footer>
+
+</body>
+</html>

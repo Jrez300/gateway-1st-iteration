@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+/* Body style */
+body{
+  background-color:grey;
+  height: 100%;
+}
+
+
+/* Nav bar*/
+header{
+  background: teal;
+ 
+}
+
+/* NavBar clearfix */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Nav bar image */
+.logo {
+  float: left;
+  
+}
+/* Navbar whole list */
+nav {
+  float: right;
+  
+}
+/* Navbar text position style over header*/
+nav ul {
+
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+
+ /* Navbar text block style */
+nav li {
+  display: inline-block;
+margin-right: 135px;
+  padding-top:20px;
+font-family: "PT Serif", serif;
+  position: relative;
+}
+/* Navbar title hyperlinks */
+nav ul a {
+  color: white;
+    text-decoration:none;
+  text-transform:uppercase;
+  font-size: 18px;
+  font-weight:bold;
+}
+/* Navbar link hover */
+nav a:hover {
+  color: black;
+}
+
+/* Hero image position/style */
+#hero-image {
+  background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2017/04/Meredith-Richardson-GCI_TurquoiseWaters_SevenMileBeach-940x627.jpg");
+  background-repeat: no-repeat;
+  padding-top:400px;
+  padding-bottom: 400px;
+  margin-top: 5px;
+    margin-left: 0px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+/* text in the middle of the image */
+.hero-header {
+  text-align: center;
+ margin-top:-300px;
+  margin-bottom:100px;
+  margin-left:0px;
+  
+  width:100%;
+  color: white;
+  font-size: 50px;
+  font-family: "PT Serif", serif;
+}
+
+.container2 {
+  width:50%;
+  margin-left: 350px;
+  color: white;
+font-weight: bold;
+}
+/* Input box */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 5px; /* Add a top margin */
+  margin-bottom: 15px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "PT Serif", serif;
+}
+
+/* Submit button */
+input[type=submit] {
+  background-color: white;
+  color: teal;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 330px;
+  
+}
+
+
+
+/* Form text box container*/
+.footer {
+  float:right;
+  margin-right:400px;
+  width:50%;
+  margin-left:100px;
+  border-radius: 5px;
+  padding: 20px;
+font-family: "PT Serif", serif;
+  color:white;
+}
+
+
+/*Footer Div container*/
+footer {
+  display:block;
+    background-color: teal;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  margin-top:-15px;
+  margin-bottom:0px;
+  clear:both
+}
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.social  {
+     text-decoration: none;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+ margin-right: 350px
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+   font-family: "PT Serif";
+  font-weight: bold;
+}
+/*icon position*/
+.social ul li{
+   display: inline-block;
+margin-right: 50px;
+  padding-top: 30px;
+  position: relative;
+}
+
+
+
+/*copyright style*/
+.copyright{
+  text-align: center;
+    color: white;
+  margin-top:20px;
+    margin-right:350px;
+    
+}
